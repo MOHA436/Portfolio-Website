@@ -328,38 +328,41 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
+    
     <section class="contact" id="contact">
-      <div class="section-header">
-        <div class="section-label">Contact Me</div>
-        <h2 class="section-title">
-          Let's Work Together<br />On Your Next Project
-        </h2>
-      </div>
+  <div class="section-header">
+    <div class="section-label">Contact Me</div>
+    <h2 class="section-title">
+      Let's Work Together<br />On Your Next Project
+    </h2>
+  </div>
 
-      <form class="contact-form" id="contactForm">
-        <div class="form-row">
-          <div class="form-group">
-            <input type="text" placeholder="Your Name" required />
-          </div>
-          <div class="form-group">
-            <input type="email" placeholder="Your Email" required />
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <input type="text" placeholder="Phone Number" />
-          </div>
-          <div class="form-group">
-            <input type="text" placeholder="Subject" />
-          </div>
+  <div class="contact-content">
+    <!-- Form -->
+    <form class="contact-form" id="contactForm" action="https://formspree.io/f/mojnkrjw" method="POST">
+      <div class="form-row">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required />
         </div>
         <div class="form-group">
-          <textarea placeholder="Your Message" rows="6" required></textarea>
+          <input type="email" name="email" placeholder="Your Email" required />
         </div>
-        <button type="submit" class="btn btn-submit">Send Message</button>
-      </form>
-    </section>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <input type="text" name="phone" placeholder="Phone Number" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="subject" placeholder="Subject" />
+        </div>
+      </div>
+      <div class="form-group">
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-submit">Send Message</button>
+    </form>
+  </div>
+</section>
   </main>
 
   <!-- Footer -->

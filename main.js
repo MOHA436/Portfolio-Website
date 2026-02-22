@@ -56,3 +56,31 @@ filterBtns.forEach((btn) => {
     });
   });
 });
+
+
+
+const contactForm = document.getElementById("contactForm");
+
+contactForm.addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const formData = new FormData(contactForm);
+
+  try {
+    const response = await fetch(contactForm.action, {
+      method: "POST",
+      body: formData,
+      headers: { Accept: "application/json" }
+    });
+
+    if (response.ok) {
+      alert("Thanks! Your message has been sent.");
+      contactForm.reset(); // Clear form fields
+    } else {
+      alert("Oops! There was a problem sending your message.");
+    }
+  } catch (error) {
+    alert("Error sending message. Try again later.");
+    console.error(error);
+  }
+});

@@ -627,7 +627,8 @@ main {
   transform: translateY(-3px);
 }
 
-/* Contact Section */
+
+ 
 .contact {
   margin-top: 100px;
   position: relative;
@@ -636,8 +637,8 @@ main {
 
 .contact-content {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 10px;
+  grid-template-columns: 1fr;
+  gap: 20px;
   margin-top: 50px;
 }
 
@@ -693,6 +694,19 @@ main {
 .btn-submit {
   width: 100%;
   margin-top: 10px;
+  background: #00d9ff;
+  color: #1a1650;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 217, 255, 0.3);
 }
 
 /* Footer */
