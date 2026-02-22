@@ -58,7 +58,7 @@ header {
 .logo {
   text-decoration: none;
   color: white;
-  font-size: 2em;
+  font-size: 1.1em;
   font-weight: 600;
 }
 
@@ -102,7 +102,7 @@ header nav li a:hover {
 .socials {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 12px;
 }
 
 .socials a {
