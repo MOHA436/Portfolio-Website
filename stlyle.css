@@ -99,7 +99,7 @@ header nav li a:hover {
   color: #00d9ff;
 }
 
-.socials {
+/* .socials {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -114,6 +114,62 @@ header nav li a:hover {
 .socials a:hover {
   transform: translateY(-5px) scale(1.2);
   color: #00d9ff;
+} */
+
+.footer {
+  background: linear-gradient(135deg, #020617, #0f172a);
+  padding: 60px 8% 30px;
+  margin-top: 100px;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-left h2 {
+  font-size: 1.8em;
+}
+
+.footer-left span {
+  color: #00d9ff;
+}
+
+.footer-left p {
+  color: #b8b8d1;
+  margin-top: 10px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-socials a {
+  font-size: 1.1em;
+  color: white;
+  background: rgba(0, 217, 44, 0.1);
+  padding: 5px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.footer-socials a:hover {
+  background: #00d9ff;
+  color: #1a1650;
+  transform: translateY(-5px) scale(1.2);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  color: #b8b8d1;
+  font-size: 14px;
 }
 
 #menu {
